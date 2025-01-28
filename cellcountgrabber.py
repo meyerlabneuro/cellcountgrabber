@@ -23,7 +23,7 @@ def extract_count_excel(folder_path): #doublecheck your folder path is correct
 data = extract_count_excel(folder_path)
 
 #path to the empty CSV FILE where you want to put the cell counts
-csv_path = r'C:\Users\Gabrielle\Documents\GitHub\CellCountGrabber\csvs\pl_cfos_final.csv'
+csv_path = r'C:\Users\Gabrielle\Documents\GitHub\CellCountGrabber\csvs\il_cfos_final.csv'
 
 #ensure the directory for the CSV file exists
 output_dir = os.path.dirname(csv_path)
